@@ -20,7 +20,11 @@ export const metadata: Metadata = {
   description:
     "Интернет-магазин авторских свечей из натурального воска, созданных вручную небольшими партиями.",
   icons: {
-    icon: "/favicon.svg",
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
   },
 };
 
