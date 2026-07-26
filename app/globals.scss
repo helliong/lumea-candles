@@ -1,0 +1,39 @@
+:root {
+  --cream: #f4ebdd;
+  --ivory: #fff9f1;
+  --sand: #d8c2a6;
+  --terracotta: #b7654b;
+  --espresso: #2b211d;
+  --muted: #6e625b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--cream);
+  color: var(--espresso);
+  font-family: var(--font-manrope), Arial, sans-serif;
+}
+
+button,
+a {
+  color: inherit;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
